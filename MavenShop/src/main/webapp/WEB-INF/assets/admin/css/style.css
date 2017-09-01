@@ -1,0 +1,38 @@
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #343a40;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.mySort{
+	cursor: pointer;
+}
+ .error {
+                border:2px solid red;
+            }
+.success {
+  border:2px solid  #18bc9c;
+}   
+
+.mySort .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.mySort .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.mySort .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}        
